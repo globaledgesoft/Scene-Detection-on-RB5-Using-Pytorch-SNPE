@@ -87,8 +87,7 @@ int main(int argc, char *argv[]){
   }
   std::cout<<"Model loaded"<<std::endl;
 
-  camIdInt = atoi(cameraId.c_str());
-  VideoCapture cap(camIdInt); 
+  VideoCapture cap(qtiqmmfsrc name=qmmf ! video/x-raw, format=NV12, width=640, height=480, framerate=30/1 ! videoconvert ! video/x-raw,format=BGR ! appsink drop=1", cv::CAP_GSTREAMER); 
 
   // Check if camera opened successfully
   if(!cap.isOpened())
